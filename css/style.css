@@ -4,10 +4,7 @@
     padding: 0%;
     font-style: normal;
 }
-header{
-    padding: 50px 200px 10px;
-    background-color:rgba(255, 144, 14, 0.1);;
-}
+/* ---------------------hover section--------------------- */
 a:hover {
     background-color: yellow;
   }
@@ -19,6 +16,11 @@ a:hover {
 }
 .btn-secondary:hover{
     background-color: aqua;
+}
+/* -------------------header --------------------------------------- */
+header{
+    padding: 50px 200px 10px;
+    background-color:rgba(255, 144, 14, 0.1);;
 }
 /* -----------------------------------------navvar   section--------------------------- */
 .nav-bar{
@@ -114,6 +116,7 @@ main{
     height: 324px;
     width: 324px;
 }
+/* --------------------right section top--------------------------------- */
 .main-top-right-heading{
     height: 106px;
     width: 468px;
@@ -211,7 +214,7 @@ main{
     font-size: 16px;
     line-height: 26px;
 }
-
+/* ----------------------------main second section right----------------------------------------- */
 
 .main-second-section-right{
     height: 1059px;
@@ -221,6 +224,7 @@ main{
     height: 982px;
     width: 708px;
 }
+/* ---------------------------big buttion section--------------------------------------- */
 .btn-secondary{
     position: relative;
     left: -30px;
@@ -244,6 +248,7 @@ main{
     line-height: 40px;
     text-align: center;
 }
+/* -------------------------------------third section------------------------------------- */
 .main-third-section{
     text-align: left;
 }
@@ -263,8 +268,7 @@ main{
     line-height: 26px;
     color: #727272;
 } 
-
-
+/* ---------------------------icon section--------------------------- */
 
 .fourth{
     padding-top: 50px;
@@ -321,7 +325,7 @@ main{
     padding-left: 200px;
     padding-top: 20px;
 }
-
+/* --------------------------------------footer section----------------------------- */
 .footer-icon{
     padding-top: 50px;
     display: flex;
@@ -362,7 +366,7 @@ color: #424242;
 .paragraph{
     padding-left: 300px;
 }
-
+/* --------------------------------extra section--------------------------------------- */
 .login-container{
     display: flex;
     justify-content: center;
@@ -394,14 +398,6 @@ color: #424242;
     color: whitesmoke;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
 
 /* ------------------------------------media----------------------------------- */
 
@@ -455,6 +451,7 @@ color: #424242;
         padding: 5%;
         width: 90%;
     }
+    /* -----------------------main section--------------------------------- */
     main{
         margin-left: 0px;
         margin-right: 0px;
@@ -617,6 +614,7 @@ color: #424242;
         padding-top: 80px;
     
     }
+    /* ----------------------footer------------------------- */
     .fourth{
         grid-template-columns: repeat(1,1fr);
         padding-top: 100px;
