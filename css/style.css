@@ -8,6 +8,9 @@ header{
     padding: 50px 200px 10px;
     background-color:rgba(255, 144, 14, 0.1);;
 }
+a:hover {
+    background-color: yellow;
+  }
 /* -----------------------------------------navvar   section--------------------------- */
 .nav-bar{
     display: flex;
@@ -258,6 +261,7 @@ main{
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
 }
 .fourth > div{
     height: 242px;
@@ -285,9 +289,7 @@ main{
     line-height: 23px;
     color: #727272;
 }
-/* footer{
-    padding-left: 250px;
-} */
+
 .sponspors h1{
     padding-top: 50px;
     text-align: center;
@@ -455,7 +457,7 @@ color: #424242;
         width: 90%;
     }
     .main-second-section-header-description{
-    width: 80%;       
+        width: 80%;       
     }
     .main-second-section-right {
         padding-top: 20px;
@@ -503,27 +505,6 @@ color: #424242;
         font-weight: 400;
         font-size: 16px;
         color: #727272;
-    }
-
-    .fact{
-        /* 
-        margin
-        */
-        margin: 0px;
-        padding: 0px;
-        width: 200px;
-        /* display: none; */
-    }
-    .fact .fact-div{
-        flex-direction: column;
-    }
-
-    .fact .fact-div {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-content: center;
-        padding-left: 50px;
-        width: 150px;
     }
 
     footer{
