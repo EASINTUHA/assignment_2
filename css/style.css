@@ -4,197 +4,6 @@
     padding: 0%;
     font-style: normal;
 }
-@media screen and (max-width:572px) {
-    
-    body{
-        padding: 0%;
-        margin: 0%;
-    }
-    header{
-        padding: 0px 0px 0px;
-        padding-top: 20px;
-    }
-    .nav-var-icon , .nav-bar{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .nav-bar{
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .header-heading{
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-    }
-    .header-title{
-        line-height: 30px;
-        font-size: 25px;
-    }
-    .header-description{
-        line-height: 20px;
-        padding: 10px 0%;
-        text-align: justify;
-        padding-left: 10;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .header-img-section{
-        margin-top: 20px;
-        padding-top: 10px;
-        align-items: center;
-        padding: 5%;
-        width: 90%;
-    }
-    main{
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .main-top{
-        margin-left: 0%;
-        flex-direction:column-reverse;
-        padding-left: 0PX;
-        padding-right: 0px;
-    }
-    .team-images{
-       grid-template-columns: repeat(1,1fr);
-        gap: 10px;
-        padding-right: 0px;
-        padding-top: 20PX;
-        width: 100%;
-    }
-    .main-team{
-        height: 100%;
-        width: 100%;
-    }
-    .main-top-right-heading{
-        height: 100%;
-        width: 76%;
-        font-size: 25px;
-        padding: 0px;
-        margin: 0px;
-
-    }
-    .main-top-right-description{
-        height: 100%;
-        width: 100%;
-    }
-    .main-second-section{
-        flex-direction: column;
-        padding-top: 50px;
-        width: 100%;
-        margin-right: 0px;
-        padding-right: 0px;
-        overflow-y:hidden;
-    }
-    .features-img{
-        margin-top: 100px;
-        padding-bottom: 50px;
-        height: 100%;
-        width: 100%;
-    }
-    .main-second-section-header-description , .main-second-section-header , .main-second-section-left , .container , .container-2{
-        width: 97%;
-        padding-right: 0px;
-    }
-    .main-second-section-left{
-        padding-top: 50px;
-    }
-    .container{
-        padding-top: 50px;
-    }
-    .container-2-description{
-        width: 90%;
-    }
-    .main-second-section-header > h1{
-        font-size: 30px;
-        width: 90%;
-    }
-    .main-second-section-header-description{
-    width: 80%;       
-    }
-    .main-second-section-right {
-        padding-top: 20px;
-        height: 100%;
-        width: 100%;
-    }
-    .btn-secondary{
-        position:relative;
-        left: 100px;
-        top: 0px;
-        height: 100px;
-        align-items: center;
-    }
-    .btn-secondary > h1{
-        font-weight: 300;
-        font-size: 30px;
-        line-height: 35px;
-        text-align: center;
-    }
-    .btn-secondary > p{
-        font-weight: 100;
-        font-size: 20px;
-        line-height: 22px;
-        text-align: center;
-    }
-    .btn-pos{
-        align-items: center;
-    }
-    .main-third-section{
-        text-align: center;
-    }
-    .main-third-section > h1{
-        height: 40px;
-        width: 100%;
-        font-weight: 400;
-        font-weight: 500;
-        font-size: 25px;
-        color: #131313;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .main-third-section >p{
-        height: 30px;
-        width: 100%;
-        font-weight: 400;
-        font-size: 16px;
-        color: #727272;
-    }
-    .fact{
-        display: none;
-    }
-
-
-
-    footer{
-        padding-left: 0px;
-    }
-    .sponspors h1{    
-        width: 100%;
-        text-align: center;
-    }
-    .sponspors >div >div >p{
-        width: 100%;
-        height: 100%;
-    }
-    .footer-icon{
-        flex-direction: column;
-    }
-    .footer-icon img{
-        padding-bottom: 50px;
-        height: 80%;
-        width: 80%;
-        align-items: center;
-    }
-
-
-
-
-}
 header{
     padding: 50px 200px 10px;
     background-color:rgba(255, 144, 14, 0.1);;
@@ -562,11 +371,11 @@ main{
 .bottom{
     margin-top: 50px;
     height: 100px;
-    width: 1440px;
-    align-items: center;
+    width: 80%;
     background-color: #FFF4E7;
     border-radius: 8px;
     margin-bottom: 100px;
+    margin-left: calc(10%)
 }
 .bottom > p{
     font-weight: 400;
@@ -780,6 +589,7 @@ color: #424242;
         background-color: #FFF4E7;
         border-radius: 8px;
         margin-bottom: 100px;
+        margin-left: 0px;
     }
     .bottom > p{
         padding-top: 80px;
