@@ -11,6 +11,15 @@ header{
 a:hover {
     background-color: yellow;
   }
+.icon:hover{
+    background-color: #FF900E;
+}
+.footer-img:hover{
+    background-color: indianred;
+}
+.btn-secondary:hover{
+    background-color: aqua;
+}
 /* -----------------------------------------navvar   section--------------------------- */
 .nav-bar{
     display: flex;
@@ -343,7 +352,9 @@ color: #424242;
     padding-top: 30px;
 
 }
-
+.footer-img:hover{
+    background-color: indianred;
+}
 /* ------------------------------------media----------------------------------- */
 
 @media screen and (max-width:572px) {
